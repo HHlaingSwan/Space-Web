@@ -4,7 +4,10 @@ const NavBar = () => {
 	const navItems = ["Home", "Tech", "Crew", "Satellites"];
 	return (
 		<>
-			<div className=' flex items-center fixed bg-black/10 backdrop-blur-sm justify-between w-full h-16 px-4 sm:px-10 z-50'>
+			<div
+				data-aos='fade-down'
+				data-aos-delay='400'
+				className=' flex items-center fixed bg-black/10 backdrop-blur-sm justify-between w-full h-16 px-4 sm:px-10 z-50'>
 				<div className='flex items-center  hover:cursor-pointer'>
 					<i className='fa-brands fa-squarespace hover:text-gray-400 text-white text-lg   sm:text-4xl '></i>
 					<span className='text-white sm:text-xl text-sm  font-bold tracking-wide text-center ps-2'>
