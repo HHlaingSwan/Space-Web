@@ -15,7 +15,7 @@ const App = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setLading(false);
-		}, 6000);
+		}, 8000);
 		AOS.init({
 			duration: 1200,
 			easing: "ease-in-out",
